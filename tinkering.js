@@ -1,11 +1,8 @@
-const sayHelloToConsole = function(name) {
-  console.log("Hello, " + name);
-}
-sayHelloToConsole("John");
+const seasons = ["spring", "summer", "fall"];
+const length = seasons.length;
 
-const returnSayHello = function (name) {
-  return "Hello, " + name;
-}
+console.log(seasons.length);
 
-const greeting = returnSayHello("Joe");
-console.log(greeting);
+seasons.push("winter");
+
+console.log(seasons.length);
