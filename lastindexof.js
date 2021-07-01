@@ -3,13 +3,7 @@ function lastIndexOf(array, value) {
     return -1
   }
   for (const element of array) {
-    if (element === value) {
-      return array.lastIndexOf(value);
-    }
-    
-  } 
-  for (const element of array) {
-    if (element !== value) {
+    if (element === value || element !== value) {
       return array.lastIndexOf(value);
     }
   }
