@@ -6,7 +6,7 @@ function lastIndexOf(array, value) {
     if (element === value) {
       return array.lastIndexOf(value);
     }
-    break
+    
   } 
   for (const element of array) {
     if (element !== value) {
